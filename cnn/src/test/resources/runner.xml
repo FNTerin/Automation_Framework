@@ -3,8 +3,8 @@
 <suite name="Cnn UI Tests" parallel="tests">
 
     <!-- If useSauce is false then all tests are on local-->
-    <parameter name="useSauceLab" value="true"/>
-    <parameter name="localPlatform" value="false"/>
+    <parameter name="useSauceLab" value="false"/>
+    <parameter name="localPlatform" value="true"/>
 
     <parameter name="URL" value=""/>
     <parameter name="userName" value=""/>
@@ -22,7 +22,7 @@
         <parameter name="os" value="Win8"/>
         <!--<parameter name="browser" value="googlechrome"/>-->
         <parameter name="browser" value="firefox"/>
-        <parameter name="browserVersion" value="25"/>
+        <parameter name="browserVersion" value="28"/>
         <!--<parameter name="browser" value="safari"/>-->
         <classes>
             <class name="home.NavigationTab"/>

@@ -33,7 +33,16 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.saucelabs</groupId>
+            <artifactId>sauce-rest-api</artifactId>
+        </dependency>
     </dependencies>
+
+    <properties>
+        <testRunner>runner.xml</testRunner>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <build>
         <plugins>
