@@ -33,10 +33,7 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.saucelabs</groupId>
-            <artifactId>sauce-rest-api</artifactId>
-        </dependency>
+
     </dependencies>
 
     <properties>
