@@ -3,6 +3,9 @@
 <suite name="Cnn UI Tests" parallel="tests">
 
     <!-- If useSauce is false then all tests are on local-->
+    <parameter name="userName" value="FatimaNTerin"/>
+    <parameter name="key" value="7f5e7e1c-0212-450e-b502-429ad77ad9c8"/>
+
     <parameter name="useSauceLab" value="false"/>
     <parameter name="localPlatform" value="true"/>
 
