@@ -21,11 +21,11 @@
     <!--caps.setCapability("platform", "Windows 8");-->
     <!--caps.setCapability("version", "25");-->
 
-    <test name="Cnn on Windows-8 with safari Tests">
+    <test name="Cnn on Windows-8 with firefox Tests">
         <parameter name="os" value="Win8"/>
         <!--<parameter name="browser" value="googlechrome"/>-->
-        <parameter name="browser" value="safari"/>
-        <parameter name="browserVersion" value="5.1.7"/>
+        <parameter name="browser" value="firefox"/>
+        <parameter name="browserVersion" value="28"/>
         <!--<parameter name="browser" value="safari"/>-->
         <classes>
             <class name="home.NavigationTab"/>
