@@ -48,6 +48,7 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
         </dependency>
+
     </dependencies>
 
 </project>
